@@ -1,0 +1,7 @@
+To use gm_datapck in Garry's Mod, add this to your serverside Lua code:
+
+require("datapack")
+hook.Add("DatapackCompressed", "SomeUniqueName", function(Path)
+	-- Do whatever you want in here
+	-- Path is the path of the new datapack
+end)
